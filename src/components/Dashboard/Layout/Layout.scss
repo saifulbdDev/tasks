@@ -1,0 +1,30 @@
+@import "../../../styles/app.scss";
+
+.v-main__wrap {
+  padding: 70px $content-padding $content-padding;
+}
+.content {
+  background-color: #fff;
+  .content {
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+  }
+
+  .page-loader{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #fff;
+    z-index: 99;
+    img{
+      z-index: 100;
+    }
+  }
+}
